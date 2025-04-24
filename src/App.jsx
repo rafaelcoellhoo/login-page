@@ -14,7 +14,7 @@ export default function App(){
     }
 
     if(user.length < 8 || pass.length < 8){
-      return toast.error("Usuário ou senha inválidos")
+      return toast.error("Usuário ou senha inválidos!")
     }
     //requisição para o backend
     console.log(user)
